@@ -1,24 +1,24 @@
 variable "resource_group_name" {
-    type = string
-    default = "example-resources"
+  type    = string
+  default = "example-resources"
 }
 
 variable "location" {
-    type = string
-    default = "East US"
+  type    = string
+  default = "East US"
 }
 
 variable "storage_account_name" {
-    type = string
-    default = "storageaccountname"
+  type    = string
+  default = "examplestorageacc"
 }
 
 variable "container_name" {
-    type = string
-    default = "example-container"
+  type    = string
+  default = "example-container"
 }
 
 variable "blob_name" {
-    type = string
-    default = "example-blob"
+  type    = string
+  default = "example-blob"
 }
